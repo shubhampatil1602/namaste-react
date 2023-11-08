@@ -14,7 +14,17 @@
 
 - Most imp. package in our project is a bundler. (webpack, parcel, vite, etc...)
 
-### 🚀 To install a package we use npm and to execute a package we use npx command.
+- JSX - HTML-like or XML-like syntax.
+
+- JSX => Babel transpiles it to React.createElement => JS Object => HTMLElement(render) => And this all done by Babel. Babel is converting JSX to React.createElement.
+
+- Two ways to create Components in react: 1) Class Based (old) and 2) Functional Based Compponents (new).
+
+- A functional component is normal JS function that returns JSX code or React element.
+
+- Component Composition -> Component inside ReactComponent
+
+### 🚀 `To install a package we use npm and to execute a package we use npx command.`
 
 ## What is Parcel doing for us ?
 
