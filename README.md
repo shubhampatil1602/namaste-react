@@ -1,5 +1,7 @@
 # Namaste React 😄
 
+- One of the reason for react is fast is it uses virtual dom, diff algo., reconciliation.
+
 - package.json is a configuration for npm.
 
 - npm is a package manager. Collection of packages.
@@ -28,7 +30,34 @@
 
 - ConfigDrivenUI - data is driven by config with the help of backend api. In short different content for different locations.
 
+- Two types of export/import. 1) export default componentName -> import componentName from "path" 2) using export keyword infront of variable (named export) -> import { name } from "path"
+
 ### 🚀 `To install a package we use npm and to execute a package we use npx command.`
+
+## foodhub
+
+- Header
+  - Logo
+  - Nav Items
+- Body
+  - Search
+  - RestaurantContainer
+  - RestaurantCards
+  - Img
+  - Name of resto, star, cuisine, delivery time
+- Footer
+  - Copyright
+  - Links
+  - Address
+  - Contact us
+
+## React Hooks
+
+- Normal JS utility functions
+- Whenever a state variable updates, react re-render the components.
+- There are multiple hooks in react but here are 2 very imp hooks:
+  - useState() -> used to generate powerful state variables in react.
+  - useEffect()
 
 ## What is Parcel doing for us ?
 
