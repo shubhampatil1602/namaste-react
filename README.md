@@ -22,7 +22,11 @@
 
 - A functional component is normal JS function that returns JSX code or React element.
 
-- Component Composition -> Component inside ReactComponent
+- Component Composition -> Component inside ReactComponent.
+
+- Functional components are JS functions and Props are like passing arguments to functional components.
+
+- ConfigDrivenUI - data is driven by config with the help of backend api. In short different content for different locations.
 
 ### 🚀 `To install a package we use npm and to execute a package we use npx command.`
 
