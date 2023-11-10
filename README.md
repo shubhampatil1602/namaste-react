@@ -2,6 +2,12 @@
 
 - One of the reason for react is fast is it uses virtual dom, diff algo., reconciliation.
 
+- Virtual DOM is the object representation of DOM.
+
+- Reconciliation is, The algorithm React uses to diff one tree with another to determine which parts need to be changed.
+
+- In React, a component is a piece of reusable code that represents a part of a user interface. Components are used to render, manage, and update the UI elements in your application.
+
 - package.json is a configuration for npm.
 
 - npm is a package manager. Collection of packages.
@@ -54,10 +60,15 @@
 ## React Hooks
 
 - Normal JS utility functions
+
 - Whenever a state variable updates, react re-render the components.
+
 - There are multiple hooks in react but here are 2 very imp hooks:
+
   - useState() -> used to generate powerful state variables in react.
-  - useEffect()
+  - useEffect() -> used when we have to make an external api calls.
+
+- Whenever state variables update, react triggers a reconciliation cycle(re-renders the component).
 
 ## What is Parcel doing for us ?
 
