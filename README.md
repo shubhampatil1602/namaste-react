@@ -65,10 +65,15 @@
 
 - There are multiple hooks in react but here are 2 very imp hooks:
 
-  - useState() -> used to generate powerful state variables in react.
-  - useEffect() -> used when we have to make an external api calls.
+  - useState() -> used to generate powerful state variables in react. If you want to make your component dynamic, this is where useState variables comes.
+  - useEffect() -> used when we have to make an external api calls, useEffect() will be called after the component rendered.
 
 - Whenever state variables update, react triggers a reconciliation cycle(re-renders the component).
+
+## 2 Types of Routing in web apps
+
+- Client Side Routing
+- Server Side Routing -> refreshes whole page if we have to navigate into the other page(<a href="/"> tag in html)
 
 ## What is Parcel doing for us ?
 
