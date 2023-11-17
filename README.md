@@ -26,7 +26,17 @@
 
 - JSX => Babel transpiles it to React.createElement => JS Object => HTMLElement(render) => And this all done by Babel. Babel is converting JSX to React.createElement.
 
+` Load -> Render -> API call -> Re-render`
+
 - Two ways to create Components in react: 1) Class Based (old) and 2) Functional Based Compponents (new).
+
+- In class based component,
+  class Name extends React.Component {
+  constructor(props) {
+  super(props);
+  } and then render() { return (...)} this is how it is written and inside constructor this.state={something: 1,} & to update this.setState({something: this.state.something+1}) inside return statement.
+
+- componentDidMount() is used to make api calls
 
 - A functional component is normal JS function that returns JSX code or React element.
 
